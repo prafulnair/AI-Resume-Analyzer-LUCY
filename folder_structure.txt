@@ -1,0 +1,12 @@
+lucy/
+├── app.py                  # Flask server
+├── resume_parser.py        # PDF/text extraction
+├── skill_matcher.py        # NLP: skills + semantic comparison
+├── llm_engine.py           # LLM interaction via Ollama
+├── prompt_builder.py       # Prompt construction for LLM
+├── utils.py                # Shared functions/utilities
+├── .env                    # Secrets like model config
+├── requirements.txt
+└── sample_docs/
+    ├── sample_resume.pdf
+    └── sample_job.pdf
